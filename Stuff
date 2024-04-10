@@ -1,0 +1,8 @@
+  dice_1 = rand(1..4)
+  dice_2 = rand(1..4)
+  dice_3 = rand(1..4)
+  dice_4 = rand(1..4)
+  dice_5 = rand(1..4)
+  sum = dice_1 + dice_2 + dice_3 + dice_4 + dice_5
+
+  @outcome = "You rolled a #{dice_1}, a #{dice_2}, a #{dice_3}, a #{dice_4}, and a #{dice_5} for a total of #{sum}"
